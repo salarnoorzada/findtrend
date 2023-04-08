@@ -609,7 +609,7 @@ body {
   .platform-header {
     width: 1160px;
     font-size: 64px;
-    margin-left: 13rem;
+    /* margin-left: 13rem; */
   }
   .platform-image-container {
     gap: 24px;
