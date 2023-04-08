@@ -97,7 +97,7 @@ body {
   display: flex;
   width: 1800px;
   height: 900px;
-  background-image: url(../assets/images/Bg-hero/Ornament.svg);
+  background-image: url(./assets/images/Bg-hero/Ornament.svg);
 }
 .hero-content {
   position: absolute;
@@ -694,7 +694,7 @@ body {
     top: 7px;
     right: 36px;
     left: 39px;
-    background-image: url(../assets/images/Bg-hero/Ornament-1.svg);
+    background-image: url(./assets/images/Bg-hero/Ornament-1.svg);
   }
   .hero-content {
     left: 29px;
