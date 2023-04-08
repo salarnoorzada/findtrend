@@ -280,7 +280,7 @@ body {
   gap: 77px;
 }
 .platform-header {
-  width: 1270px;
+  /* width: 1270px; */
   font-size: 64px;
   font-weight: 700;
   line-height: 76.3px;
