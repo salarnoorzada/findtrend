@@ -268,19 +268,23 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 2209px;
+  height: 2309px;
   margin-top: 129px;
   background-color: #fafafa;
 }
+
 .platform-container {
-  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 77px;
 }
 .platform-header {
   width: 1270px;
   font-size: 64px;
   font-weight: 700;
   line-height: 76.3px;
-  margin-left: 29rem;
+  text-align: center;
 }
 .platform-image-container {
   display: flex;
@@ -294,7 +298,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 140px;
-  height: 140;
+  height: 140px;
   background-color: #ffffff;
   border-radius: 8px;
 }
@@ -306,9 +310,15 @@ body {
 .green-back {
   background-color: #a8ff35;
 }
-.tweets.section {
+.tweets-section {
+  margin-left: 400px;
   display: flex;
   flex-direction: column;
+  gap: 45px;
+}
+.tweets-button-wrapper {
+  width: 580px;
+  display: flex;
   justify-content: center;
 }
 .tweets-button {
@@ -360,6 +370,11 @@ body {
   background-color: #a8ff35;
   border-radius: 99px;
   margin-left: 8px;
+}
+.white-arrow {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 .best-deal-monthly {
   margin-top: 51px;
@@ -587,6 +602,11 @@ body {
     width: 146px;
     height: 46px;
   }
+  .platform-section {
+  }
+  .platform-container {
+    margin-top: 0;
+  }
   .platform-header {
     width: 1160px;
     font-size: 64px;
@@ -603,7 +623,10 @@ body {
     width: 60px;
     height: 60px;
   }
-  .best-deal-header {
+  .tweets-section {
+    margin-left: 430px;
+  }
+  .twitter- .best-deal-header {
     font-size: 64px;
   }
   .best-deal-plan-toggle {
@@ -799,6 +822,191 @@ body {
   }
   .open-tabs-text {
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
+  }
+  .long-text-section {
+    margin-top: 80px;
+    height: 600px;
+  }
+  .long-text-content {
+    width: 335px;
+  }
+  .long-text {
+    font-size: 34px;
+    line-height: 43px;
+    font-weight: 900;
+  }
+  .partner-content {
+    margin-left: 13px;
+    width: 365px;
+  }
+  .partner-header {
+    font-size: 32.5px;
+    width: 335px;
+    line-height: 43px;
+    font-weight: 900;
+  }
+  .brands-container {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .brands-image-wrapper {
+    width: 166px;
+    height: 74px;
+  }
+  .brands-image {
+    width: 115px;
+    height: 24px;
+  }
+  .platform-section {
+    height: 1900px;
+  }
+  .platform-container {
+    width: 365px;
+    gap: 72px;
+    overflow: hidden;
+  }
+  .platform-header {
+    width: 337px;
+    height: 86px;
+    margin-left: 12px;
+    font-size: 33.1px;
+    font-weight: 900;
+    line-height: 43px;
+    text-align: center;
+  }
+  .platform-image-container {
+    width: 624px;
+    height: 34px;
+    gap: 15px;
+    margin-top: 32px;
+    margin-left: 12px;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .platform-image-wrapper {
+    width: 64px;
+    height: 64px;
+  }
+  .platform-image {
+    width: 30px;
+    height: 30px;
+  }
+  .tweets-section {
+    margin-left: 0;
+    gap: 20px;
+  }
+  .tweets-button-wrapper {
+    width: 380px;
+  }
+  .tweets-button {
+    width: 152px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .best-deal-section {
+    height: 2213px;
+  }
+  .best-deal-content {
+    margin-top: 80px;
+    width: 339px;
+  }
+  .best-deal-header {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+  }
+  .best-deal-plan-toggle {
+    gap: 24px;
+  }
+  .outline-frame {
+    width: 90px;
+    height: 44px;
+  }
+  .toggle-circle {
+    width: 28px;
+    height: 28px;
+  }
+  .white-arrow {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    width: 63px;
+    height: 66px;
+    margin-left: 240px;
+    margin-bottom: 2rem;
+  }
+  .white-arrow-svg {
+    transform: matrix(0.23, -0.97, -0.97, -0.23, 0, 0);
+  }
+  .white-arrow-text {
+    transform: rotate(6deg);
+    font-size: 12px;
+  }
+  .plan-cards {
+    margin-top: 17px;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .best-deal-plan-cards {
+    width: 339px;
+    height: 602px;
+  }
+  .plan-card-price {
+    font-size: 60px;
+  }
+  .first-btn {
+    margin-top: 153px;
+  }
+  .second-btn {
+    margin-top: 108px;
+  }
+  .third-btn {
+    margin-top: -5px;
+  }
+  .join {
+    width: 375px;
+    height: 316px;
+  }
+  .join-content {
+    margin-top: 80px;
+  }
+  .join-header {
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .join-btn-wrapper {
+    margin-top: 32px;
+  }
+  .join-btn {
+    width: 106px;
+    height: 57px;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .page-footer {
+    height: 473px;
+  }
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 88px;
+    gap: 89px;
+  }
+  .footer-logo {
+    margin-left: 90px;
+    }
+  .footer-list-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-list {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 }
