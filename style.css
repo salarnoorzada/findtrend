@@ -652,6 +652,47 @@ body {
     display: none;
     visibility: hidden;
     opacity: 0;
+    background-color: black;
+    width: 375px;
+    height: 638px;
+    left: 0;
+  }
+  .nav-menu-show {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+  .logo-wrapper {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .nav-content {
+    display: block;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    top: 40%;
+    left: 0%;
+  }
+  .nav-list-items {
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+  }
+  .nav-button {
+    top: 435px;
+    left: 33%;
+    gap: 52px;
+    display: flex;
+    flex-direction: column;
+  }
+  .login-btn {
+    margin-left: 1rem;
   }
   .mb-nav {
     display: block;
@@ -659,7 +700,7 @@ body {
     opacity: 1;
     background-color: transparent;
     position: absolute;
-    z-index: 99;
+    z-index: 999;
   }
   .mb-nav-content {
     display: flex;
@@ -683,6 +724,11 @@ body {
     padding-top: 6px;
     width: 20px;
     border-top: 2px solid white;
+  }
+ 
+  .darken-body {
+    background-color: gray;
+    filter: brightness(0.2);
   }
   .hero-section {
     width: 100%;
