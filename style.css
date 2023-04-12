@@ -819,7 +819,7 @@ body {
   }
   .open-tabs-header {
     /* margin-top: -80px; */
-    font-size: 32px;
+    font-size: 30px;
   }
   .first-arrow {
     display: block;
@@ -928,7 +928,7 @@ body {
     width: 337px;
     height: 86px;
     margin-left: 12px;
-    font-size: 33.1px;
+    font-size: 30.1px;
     font-weight: 900;
     line-height: 43px;
     text-align: center;
