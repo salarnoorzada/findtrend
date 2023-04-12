@@ -9,3 +9,18 @@ burgerMenu.addEventListener("click", () => {
   firstCross.classList.toggle("first-cross");
   secondCross.classList.toggle("second-cross");
 });
+// ? the below is triggering a className into html when you scroll and reach to that element
+// ? so it makes a scroll animation.
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+const box = document.querySelectorAll(".findtrend-box");
+box.forEach((el) => observer.observe(el));

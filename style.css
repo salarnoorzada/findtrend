@@ -152,6 +152,7 @@ body {
   height: 742px;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 .open-tabs-content {
   position: relative;
@@ -178,7 +179,16 @@ body {
   width: 502px;
   height: 202px;
   border-radius: 16px;
+  /* ?the below is a scroll animation */
+  /* opacity: 0;
+  transform: translateX(150%);
+  transition: all 1s ease; */
 }
+/* ?the below is for triggered scroll animation */
+/* .show {
+  opacity: 1;
+  transform: translateX(0);
+} */
 .elon-box {
   width: 341px;
   height: 82px;
@@ -725,7 +735,7 @@ body {
     width: 20px;
     border-top: 2px solid white;
   }
- 
+
   .darken-body {
     background-color: gray;
     filter: brightness(0.2);
@@ -733,6 +743,7 @@ body {
   .hero-section {
     width: 100%;
     height: 819px;
+    overflow-x: hidden;
   }
   .background-img {
     width: 350px;
@@ -804,6 +815,7 @@ body {
   .open-tabs-content {
     position: absolute;
     top: 840px;
+    width: 375px;
   }
   .open-tabs-header {
     /* margin-top: -80px; */
@@ -817,7 +829,8 @@ body {
     width: 160px;
     height: 67px;
     top: 103px;
-    left: 435px;
+    left: 190px;
+
     /* right: 20px; */
   }
   .first-arrow-txt {
@@ -848,7 +861,7 @@ body {
     width: 93px;
     height: 64px;
     position: absolute;
-    left: 253px;
+    left: 13px;
     top: 255px;
   }
   .second-txt {
