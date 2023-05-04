@@ -697,6 +697,9 @@ body {
   body {
     width: 375px;
   }
+  html {
+    width: 375px;
+  }
   .nav-container {
     display: none;
     visibility: hidden;
