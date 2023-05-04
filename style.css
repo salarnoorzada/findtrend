@@ -17,7 +17,7 @@ body {
   position: absolute;
   top: 0;
   left: 70px;
-  background-color: transparent; /*! make it transparent when the frst section's background got black*/
+  background-color: transparent;
   height: 99px;
   width: 1800px;
 }
@@ -652,6 +652,45 @@ body {
   }
   .footer-content {
     gap: 546px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  body {
+    width: 1260px;
+    overflow-x: hidden;
+  }
+  html {
+    width: 1260px;
+  }
+  .nav-container {
+    width: 1190px;
+  }
+  .background-img {
+    left: 30px;
+    width: 100%;
+  }
+  .nav-list {
+    left: 27%;
+  }
+  .nav-button {
+    left: 74%;
+  }
+  .long-text-content {
+    width: 1200px;
+  }
+  .long-text {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 1024px;
+  }
+  html {
+    width: 1024px;
+  }
+  .nav-container {
+    width: 1000px;
   }
 }
 @media screen and (max-width: 375px) {
