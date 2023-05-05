@@ -21,6 +21,26 @@ body {
   height: 99px;
   width: 1800px;
 }
+@keyframes fastnavanimation {
+  from {
+    top: -20px;
+    opacity: 0;
+    filter: blur(5px);
+  }
+  to {
+    top: 40%;
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+@keyframes slownav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .nav-content {
   display: flex;
   align-items: center;
@@ -35,6 +55,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.7rem;
+  animation: slownav 0.5s ease-in-out;
 }
 .nav-list {
   position: absolute;
@@ -45,6 +66,7 @@ body {
   height: 18px;
   top: 40%;
   left: 25.5%;
+  animation: fastnavanimation 0.3s ease-in-out;
 }
 .nav-list-items {
   color: white;
@@ -58,6 +80,7 @@ body {
   top: 30%;
   left: 82.3%;
   width: 278px;
+  animation: slownav 0.5s ease-in-out;
 }
 .btn {
   outline: none;
@@ -181,7 +204,7 @@ body {
   border-radius: 16px;
   /* ?the below is a scroll animation */
   /* opacity: 0;
-  transform: translateX(150%);
+  transform: translateX(50%);
   transition: all 1s ease; */
 }
 /* ?the below is for triggered scroll animation */
