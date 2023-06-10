@@ -11,7 +11,9 @@ burgerMenu.addEventListener("click", () => {
 });
 // ? the below is triggering a className into html when you scroll and reach to that element
 // ? so it makes a scroll animation.
-
+window.addEventListener("load", function () {
+  document.getElementById("loading").style.display = "none";
+});
 //! the greenSeciont Title animation on scroll:
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
