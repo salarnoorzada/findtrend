@@ -13,7 +13,10 @@ burgerMenu.addEventListener("click", () => {
 // ? so it makes a scroll animation.
 window.addEventListener("load", function () {
   document.getElementById("loading").style.display = "none";
+  document.querySelector(".nav-container").style.display = "block";
+  document.querySelector(".hero-section").style.visibility = "visible";
 });
+
 //! the greenSeciont Title animation on scroll:
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
