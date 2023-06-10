@@ -247,6 +247,7 @@ body {
   width: 854px;
   height: 462px;
   text-align: center;
+  overflow: hidden;
 }
 .open-tabs-header {
   font-size: 72px;
